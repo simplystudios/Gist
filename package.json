@@ -9,10 +9,22 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/webpack-config": "^18.0.1",
+    "deprecated-react-native-prop-types": "^4.1.0",
+    "eas-cli": "^5.4.0",
     "expo": "~48.0.18",
     "expo-status-bar": "~1.4.4",
+    "patch-package": "^7.0.0n",
     "react": "18.2.0",
-    "react-native": "0.71.8"
+    "react-dom": "18.2.0",
+    "react-native": "0.71.8",
+    "react-native-background-fetch": "^4.1.10",
+    "react-native-gesture-handler": "~2.9.0",
+    "react-native-push-notification": "^8.1.1",
+    "react-native-raw-bottom-sheet": "^2.2.0",
+    "react-native-reanimated": "~2.14.4",
+    "react-native-simple-toast": "^2.0.1",
+    "react-native-web": "~0.18.11"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

@@ -21,10 +21,21 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anshwadhwa.NewsApp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "output": "server",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "212ac474-2118-4160-a43f-8d26ccb1020c"
+      }
+    },
+    "plugins": [
+      "react-native-background-fetch"
+    ]
   }
 }
