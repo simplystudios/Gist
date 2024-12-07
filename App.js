@@ -209,7 +209,6 @@ export default function App() {
                 <Pressable style={styles.filter} onPress={Bottomsheet}>
                   <Text style={styles.filtertxt}>Add Your Own Filter</Text>
                 </Pressable>
-                // Rbsheet list view here 
               </View>
             </View>
           }
