@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "News-App",
-    "slug": "News-App",
+    "name": "Gist Web",
+    "slug": "Gist Web",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
